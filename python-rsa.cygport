@@ -1,0 +1,16 @@
+inherit python-wheel
+
+NAME="python-rsa"
+VERSION=3.4.2
+RELEASE=1
+CATEGORY="Python"
+SUMMARY="Pure Python RSA implementation"
+DESCRIPTION="Python-RSA is a pure-Python RSA implementation. It supports
+encryption and decryption, signing and verifying signatures, and key
+generation according to PKCS#1 version 1.5. It can be used as a Python
+library as well as on the commandline."
+HOMEPAGE="https://stuvel.eu/rsa"
+
+ARCH=noarch
+
+python3_rsa_CONTENTS="usr/bin/pyrsa-* ${python3_rsa_CONTENTS}"
