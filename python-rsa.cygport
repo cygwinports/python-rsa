@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-rsa"
-VERSION=3.4.2
+VERSION=4.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Pure Python RSA implementation"
@@ -13,4 +13,4 @@ HOMEPAGE="https://stuvel.eu/rsa"
 
 ARCH=noarch
 
-python3_rsa_CONTENTS="usr/bin/pyrsa-* ${python3_rsa_CONTENTS}"
+python37_rsa_CONTENTS+=" usr/bin/pyrsa-*"
